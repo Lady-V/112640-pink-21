@@ -40,23 +40,27 @@
           <h2 class="visually-hidden">Приложение «Pink»</h2>
           <p class="intro__slogan">Взгляните на жизнь иначе!</p>
         </header>
-        <img src="img/intro.svg" width="320" height="462" alt="hand with white mobile and pink screen">
+        <a class="intro__link" href="#">
+          <img src="img/intro.svg" width="320" height="462" alt="hand with white mobile and pink screen">
+        </a>
         <button class="button intro__button" type="button">Скачать приложение</button>
-        <div class="intro__availability">
-          <a class="intro__logo intro__logo--apple" href="#">
-            <img src="img/apple-logo.svg" width="47" height="56" alt="Логотип_Apple">
-          </a>
-        </div>
-        <div class="intro__availability">
-          <a class="intro__logo intro__logo--android" href="#">
-            <img src="img/android-logo.svg" width="43" height="47" alt="Логотип_Android">
-          </a>
-        </div>
-        <div class="intro__availability">
-          <a class="intro__logo intro__logo--microsoft" href="#">
-            <img src="img/microsoft-logo.svg" width="44" height="41" alt="Логотип_Microsoft">
-          </a>
-        </div>
+        <ul class="intro__availability-list">
+          <li class="intro__availability-item">
+            <a class="intro__logo intro__logo--apple" href="#">
+              <img src="img/apple-logo.svg" width="47" height="56" alt="Логотип_Apple">
+            </a>
+          </li>
+          <li class="intro__availability-item">
+            <a class="intro__logo intro__logo--android" href="#">
+              <img src="img/android-logo.svg" width="43" height="47" alt="Логотип_Android">
+            </a>
+          </li>
+          <li class="intro__availability-item">
+            <a class="intro__logo intro__logo--microsoft" href="#">
+              <img src="img/microsoft-logo.svg" width="44" height="41" alt="Логотип_Microsoft">
+            </a>
+          </li>
+        </ul>
 
         <small>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</small>
 
@@ -108,33 +112,27 @@
         <h2 class="visually-hidden">Отзывы о нас</h2>
         <div class="reviews__list slider__list">
           <blockquote class="reviews__item slider__item">
-            <div>
-              <h3 class="reviews__author-name">Николай Петров</h3>
-              <p class="reviews__text">
-                «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
-                познакомился со своей будущей женой в комментариях к выложенной фотографии!»
-              </p>
-            </div>
+            <h3 class="reviews__author-name">Николай Петров</h3>
+            <p class="reviews__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
+              познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
           </blockquote>
 
           <blockquote class="reviews__item slider__item">
-            <div>
-              <h3 class="reviews__author-name">Николай Петров</h3>
-              <p class="reviews__text">
-                «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
-                познакомился со своей будущей женой в комментариях к выложенной фотографии!»
-              </p>
-            </div>
+            <h3 class="reviews__author-name">Николай Петров</h3>
+            <p class="reviews__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
+              познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
           </blockquote>
 
           <blockquote class="reviews__item slider__item">
-            <div>
-              <h2 class="reviews__author-name">Николай Петров</h2>
-              <p class="reviews__text">
-                «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
-                познакомился со своей будущей женой в комментариях к выложенной фотографии!»
-              </p>
-            </div>
+            <h3 class="reviews__author-name">Николай Петров</h3>
+            <p class="reviews__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
+              познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
           </blockquote>
 
 
@@ -156,12 +154,7 @@
         <h2 class="visually-hidden">Наши цены</h2>
         <table class="prices__base slider__list">
           <tr class="prices__row slider__item">
-            <th class="prices__cell prices__cell--heading">База <span>1,99 USD</span></th>
-          </tr>
-          <tr>
-            <td>
-              *****
-            </td>
+            <th class="prices__cell prices__cell--heading" colspan="2">База <span>1,99 USD</span></th>
           </tr>
           <tr class="prices__row slider__item">
             <td class="prices__cell prices__cell--filter">Розовый фильтр</td>
@@ -178,16 +171,10 @@
             <td class="prices__cell prices__cell--availability"><img src="img/no.png" width="27" height="27" alt="Нет">
             </td>
           </tr>
-        </table>
 
-        <table class="prices__standard slider__list">
+
           <tr class="prices__row slider__item">
-            <th class="prices__cell prices__cell--heading">Стандарт <span>3,99 USD</span></th>
-          </tr>
-          <tr>
-            <td>
-              *****
-            </td>
+            <th class="prices__cell prices__cell--heading" colspan="2">Стандарт <span>3,99 USD</span></th>
           </tr>
           <tr class="prices__row slider__item">
             <td class="prices__cell prices__cell--filter">Розовый фильтр</td>
@@ -204,16 +191,9 @@
             <td class="prices__cell prices__cell--availability"><img src="img/no.png" width="27" height="27" alt="Нет">
             </td>
           </tr>
-        </table>
 
-        <table class="prices__unlimited slider__list">
           <tr class="prices__row slider__item">
-            <th class="prices__cell prices__cell--heading">Анлим <span>9,99 USD</span></th>
-          </tr>
-          <tr>
-            <td>
-              *****
-            </td>
+            <th class="prices__cell prices__cell--heading" colspan="2">Анлим <span>9,99 USD</span></th>
           </tr>
           <tr class="prices__row slider__item">
             <td class="prices__cell prices__cell--filter">Розовый фильтр</td>
@@ -253,7 +233,7 @@
           <p class="contacts__mail-adress">mail@htmlacademy.ru</p>
 
           <h3 class="contacts__invite">Приезжайте в гости:</h3>
-          <p class="contact__adress">ул. Большая
+          <p class="contacts__adress">ул. Большая
             Конюшенная, 19/8</p>
         </div>
 
@@ -291,10 +271,10 @@
 
       </div>
 
-      <div class="page-footer__copyright copyright">
+      <p class="page-footer__copyright copyright">
         <h3 class="copyright__text">Разработано</h3>
         <a class="copyright-link" href="https://echo.htmlacademy.ru">HTML Academy</a>
-      </div>
+      </p>
 
     </div>
   </footer>
