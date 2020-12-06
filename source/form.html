@@ -29,7 +29,7 @@
             <a href="#">HTML Academy</a>
           </li>
         </ul>
-        <h2 class="main-nav__title">Конкурс на самое безбашенное путешествие с Пинк</h2>
+        <h1 class="main-nav__title">Конкурс на самое безбашенное путешествие с Пинк</h1>
       </div>
     </nav>
   </header>
@@ -37,8 +37,8 @@
   <main class="page-main page-main-form">
     <section class="contest">
       <div class="contest__wrapper">
-        <form class="contest__form" action="#" method="GET">
-
+        <h2 class="visually-hidden">Форма отправки формы на конкурс</h2>
+        <form class="contest__form" action="https://echo.htmlacademy.ru" method="GET">
           <fieldset class="contest__info">
             <legend class="contest__title">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на
               вашу бонусную карту!</legend>
@@ -139,9 +139,10 @@
               </li>
 
               <li class="contest-radio__item">
-                <input class="contest-radio__check" id="Windows Phone" type="checkbox" name="Windows Phone">
-                <label class="contest-radio__text" for="Windows Phone">Windows Phone</label>
+                <input class="contest-radio__check" id="Windows_Phone" type="checkbox" name="Windows_PhonePhone">
+                <label class="contest-radio__text" for="Windows_Phone">Windows Phone</label>
               </li>
+            </ul>
           </fieldset>
 
 
@@ -154,12 +155,12 @@
               </p>
             </div>
           </fieldset>
+
+          <button class="button__submit button" type="submit">Отправить форму</button>
+
+          <small class="contest__necessarily">* — обязательные поля</small>
+
         </form>
-
-        <button class="button__submit button" type="submit">Отправить форму</button>
-        <button class="button__close button">Закрыть</button>
-
-        <small class="contest__necessarily">* — обязательные поля</small>
 
       </div>
     </section>
