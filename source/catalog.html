@@ -169,13 +169,14 @@
 
     <section class="uploads">
       <div class="uploads__wrapper">
+        <h2 class="visually-hidden">Загрузка и Обработка фотографий</h2>
         <p class="uploads__title">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
         <img class="uploads__photo" src="img/snow_road-photo.jpg" width="280" height="374" alt="Снежная дорога">
 
         <form class="uploads__form" method="GET" action="#">
           <ul class="uploads__tools-list">
             <li class="uploads__tools-item">
-              <label for="uploads__tools-label uploads__tools--active">
+              <label class="uploads__tools-label uploads__tools--active" for="crop">
                 <svg class="uploads__tools-link uploads__tools-link--crop" width="44" height="44" viewBox="0 0 44 44"
                   fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -189,8 +190,8 @@
 
             </li>
 
-            <li class="uploads__icons-item">
-              <label for="uploads__tools-label uploads__tools--fill">
+            <li class="uploads__tools-item">
+              <label class="uploads__tools-label uploads__tools--fill" for="fill">
                 <svg width="48" height="43" viewBox="0 0 48 43" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g opacity="0.3">
                     <path
@@ -207,8 +208,8 @@
             </li>
 
 
-            <li class="uploads__icons-item">
-              <label for="uploads__tools-label uploads__tools--contrast">
+            <li class="uploads__tools-item">
+              <label class="uploads__tools-label uploads__tools--contrast" for="contrast">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g opacity="0.3">
                     <path
@@ -226,15 +227,17 @@
 
             </li>
           </ul>
+
+
+
+          <a class="uploads__tools-button button" href="#">Запостить</a>
+
+          <a class="uploads__tools-button button" href="#">Отмена</a>
+
+
+        </form>
       </div>
 
-
-      <a class="uploads__tools-button button" href="#">Запостить</a>
-
-      <a class="uploads__tools-button button" href="#">Отмена</a>
-
-      </div>
-      </form>
     </section>
 
   </main>
