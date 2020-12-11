@@ -6,7 +6,7 @@
   <title>Pink</title>
 </head>
 
-<body class="page__body">
+<body class="page__body-body page">
   <header class="page-header">
     <a class="page-header__logo">
       <img src="img/logotype-mobile.svg" width="74" height="23"
@@ -16,11 +16,11 @@
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
-          <li class="site-list__item--active">
+          <li class="site-list__item_active">
             <a>Главная</a>
           </li>
           <li class="site-list__item">
-            <a href="photo.html">Фотографии</a>
+            <a href="catalog.html">Фотографии</a>
           </li>
           <li class="site-list__item">
             <a href="form.html">Конкурс</a>
@@ -32,6 +32,7 @@
       </div>
     </nav>
   </header>
+
   <main class="page-main">
     <h1 class="visually-hidden">«Pink» - мобильное приложение для раскрашивания серых будней в розовый цвет</h1>
     <section class="intro">
@@ -43,7 +44,8 @@
         <a class="intro__link" href="#">
           <img src="img/intro.svg" width="320" height="462" alt="hand with white mobile and pink screen">
         </a>
-        <button class="button intro__button" type="button">Скачать приложение</button>
+        <a class="button intro__button" href="#">Скачать приложение</a>
+
         <ul class="intro__availability-list">
           <li class="intro__availability-item">
             <a class="intro__logo intro__logo--apple" href="#">
@@ -154,69 +156,38 @@
         <h2 class="visually-hidden">Наши цены</h2>
         <table class="prices__base slider__list">
           <tr class="prices__row slider__item">
-            <th class="prices__cell prices__cell--heading" colspan="2">База <span>1,99 USD</span></th>
+            <th class="prices__cell prices__cell--heading">&nbsp;</th>
+            <th class="prices__cell prices__cell--base">База <span>1,99 USD</span></th>
+            <th class="prices__cell prices__cell--stadart">Стандарт <span>3,99 USD</span></th>
+            <th class="prices__cell prices__cell--unlimited">Анлим <span>9,99 USD</span></th>
           </tr>
           <tr class="prices__row slider__item">
             <td class="prices__cell prices__cell--filter">Розовый фильтр</td>
             <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
+            <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
+            <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
+
+
             </td>
           </tr>
           <tr class="prices__row slider__item">
             <td class="prices__cell prices__cell--smiles">Смайлики</td>
             <td class="prices__cell prices__cell--availability"><img src="img/no.png" width="27" height="27" alt="Нет">
+            <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
+            <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
+
             </td>
           </tr>
           <tr class="prices__row slider__item">
             <td class="prices__cell prices__cell--comments">Комментарии</td>
             <td class="prices__cell prices__cell--availability"><img src="img/no.png" width="27" height="27" alt="Нет">
             </td>
-          </tr>
-
-
-          <tr class="prices__row slider__item">
-            <th class="prices__cell prices__cell--heading" colspan="2">Стандарт <span>3,99 USD</span></th>
-          </tr>
-          <tr class="prices__row slider__item">
-            <td class="prices__cell prices__cell--filter">Розовый фильтр</td>
-            <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
-            </td>
-          </tr>
-          <tr class="prices__row slider__item">
-            <td class="prices__cell prices__cell--smiles">Смайлики</td>
-            <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
-            </td>
-          </tr>
-          <tr class="prices__row slider__item">
-            <td class="prices__cell prices__cell--comments">Комментарии</td>
             <td class="prices__cell prices__cell--availability"><img src="img/no.png" width="27" height="27" alt="Нет">
-            </td>
-          </tr>
-
-          <tr class="prices__row slider__item">
-            <th class="prices__cell prices__cell--heading" colspan="2">Анлим <span>9,99 USD</span></th>
-          </tr>
-          <tr class="prices__row slider__item">
-            <td class="prices__cell prices__cell--filter">Розовый фильтр</td>
             <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
-            </td>
-          </tr>
-          <tr class="prices__row slider__item">
-            <td class="prices__cell prices__cell--smiles">Смайлики</td>
-            <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
-            </td>
-          </tr>
-          <tr class="prices__row slider__item">
-            <td class="prices__cell prices__cell--comments">Комментарии</td>
-            <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
-            </td>
           </tr>
         </table>
 
-        <p class="prices__toggles slider__toggles">
-          <button class="slider__toggle" type="button">1</button>
-          <button class="slider__toggle slider__toggle--active" type="button">2</button>
-          <button class="slider__toggle" type="button">3</button>
-        </p>
+
       </div>
     </section>
 
@@ -254,25 +225,23 @@
           alt="«Pink» - мобильное приложение для раскрашивания серых будней в розовый цвет">
       </a>
 
-      <div class="page-footer__social social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--twitter" href="#">Мы в Твиттере</a>
-          </li>
+      <ul class="social__list_page social">
+        <li class="social__item">
+          <a class="social__link social__link--twitter" href="#">Мы в Твиттере</a>
+        </li>
 
-          <li class="social__item">
-            <a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
-          </li>
+        <li class="social__item">
+          <a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
+        </li>
 
-          <li class="social__item">
-            <a class="social__link social__link--youtube" href="#">Мы в Ютубе</a>
-          </li>
-        </ul>
+        <li class="social__item">
+          <a class="social__link social__link--youtube" href="#">Мы в Ютубе</a>
+        </li>
+      </ul>
 
-      </div>
 
       <p class="page-footer__copyright copyright">
-        <h3 class="copyright__text">Разработано</h3>
+        <span class="copyright__text">Разработано</span>
         <a class="copyright-link" href="https://echo.htmlacademy.ru">HTML Academy</a>
       </p>
 
