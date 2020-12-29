@@ -1,0 +1,48 @@
+.intro {
+  font: $font-family;
+  color: $white;
+  text-align: center;
+}
+
+.intro__slogan {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  padding-top: 29px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.intro__availability-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: baseline;
+  padding-left: 58px;
+  padding-top: 32px;
+  padding-bottom: 31px;
+}
+
+.intro__availability-list li:not(:last-child) {
+  margin-right: 35px;
+}
+
+.intro__logo {
+  color: $white;
+}
+
+.intro__small {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 38px;
+  margin: 0 auto;
+}
+
+.intro__wrapper {
+  background-color: $navy;
+}

@@ -1,0 +1,46 @@
+.prices__base {
+  font: $font-family;
+  border-collapse: collapse;
+}
+
+.prices__cell-head {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  color: $white;
+  background-color: $navy;
+  border-bottom: 2px solid $navy;
+  text-align: center;
+  vertical-align: middle;
+  width: 276px;
+  height: 94px;
+
+  span {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+  }
+}
+
+.prices__cell--none {
+  background-color: $grey;
+  border: none;
+}
+
+.prices__cell {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $navy;
+  background-color: $white;
+  border: 2px solid $darkgrey;
+  text-align: center;
+  vertical-align: middle;
+  width: 276px;
+  height: 59px;
+}
+
+.prices__cell-left {
+  text-align: left;
+  vertical-align: middle;
+}

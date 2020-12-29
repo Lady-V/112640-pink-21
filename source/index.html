@@ -4,19 +4,20 @@
 <head>
   <meta charset="utf-8">
   <title>Pink</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="page__body-body page">
+<body class="page__body page">
   <header class="page-header">
     <a class="page-header__logo">
       <img src="img/logotype-mobile.svg" width="74" height="23"
         alt="«Pink» - мобильное приложение для раскрашивания серых будней в розовый цвет">
     </a>
     <nav class="main-nav">
-      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <button class="main-nav__toggle" type="button"><span>Открыть меню</span></button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
-          <li class="site-list__item_active">
+          <li class="site-list__item active">
             <a>Главная</a>
           </li>
           <li class="site-list__item">
@@ -64,7 +65,7 @@
           </li>
         </ul>
 
-        <small>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</small>
+        <small class="intro__small">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</small>
 
 
       </div>
@@ -73,12 +74,14 @@
     <section class="advantages">
       <div class="advantages__wrapper">
         <h2 class="visually-hidden">Наши преимущества</h2>
-        <p>
-          Устали от серости мегаполиса?
-        </p>
-        <p>
-          Нам есть что Вам предложить!
-        </p>
+        <div class="advantages-container">
+          <p class="advantages__slogan advantages__slogan-1">
+            Устали от серости мегаполиса?
+          </p>
+          <p class="advantages__slogan advantages__slogan-2">
+            Нам есть что Вам предложить!
+          </p>
+        </div>
         <ul class="advantages__list">
           <li class="advantages__item">
             <h3 class="advantages__title">
@@ -105,7 +108,9 @@
             </p>
           </li>
         </ul>
-        <img src="img/mobile_with_smile.svg" width="157" height="320" alt="Мобильный телефон со смайликом">
+        <div class="advantages__pic">
+          <img src="img/mobile_with_smile.svg" width="157" height="320" alt="Мобильный телефон со смайликом">
+        </div>
       </div>
     </section>
 
@@ -156,22 +161,21 @@
         <h2 class="visually-hidden">Наши цены</h2>
         <table class="prices__base slider__list">
           <tr class="prices__row slider__item">
-            <th class="prices__cell prices__cell--heading">&nbsp;</th>
-            <th class="prices__cell prices__cell--base">База <span>1,99 USD</span></th>
-            <th class="prices__cell prices__cell--stadart">Стандарт <span>3,99 USD</span></th>
-            <th class="prices__cell prices__cell--unlimited">Анлим <span>9,99 USD</span></th>
+            <th class="prices__cell-head prices__cell--none"></th>
+            <th class="prices__cell-head prices__cell--base">База <span>1,99 USD</span></th>
+            <th class="prices__cell-head prices__cell--stadart">Стандарт <span>3,99 USD</span></th>
+            <th class="prices__cell-head prices__cell--unlimited">Анлим <span>9,99 USD</span></th>
           </tr>
           <tr class="prices__row slider__item">
-            <td class="prices__cell prices__cell--filter">Розовый фильтр</td>
+            <td class="prices__cell prices__cell-left">Розовый фильтр</td>
             <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
             <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
             <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
-
-
             </td>
           </tr>
+
           <tr class="prices__row slider__item">
-            <td class="prices__cell prices__cell--smiles">Смайлики</td>
+            <td class="prices__cell prices__cell-left">Смайлики</td>
             <td class="prices__cell prices__cell--availability"><img src="img/no.png" width="27" height="27" alt="Нет">
             <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
             <td class="prices__cell prices__cell--availability"><img src="img/yes.png" width="31" height="21" alt="Да">
@@ -179,7 +183,7 @@
             </td>
           </tr>
           <tr class="prices__row slider__item">
-            <td class="prices__cell prices__cell--comments">Комментарии</td>
+            <td class="prices__cell prices__cell-left">Комментарии</td>
             <td class="prices__cell prices__cell--availability"><img src="img/no.png" width="27" height="27" alt="Нет">
             </td>
             <td class="prices__cell prices__cell--availability"><img src="img/no.png" width="27" height="27" alt="Нет">
@@ -198,18 +202,18 @@
             Остались вопросы? Свяжитесь с нами!
           </h2>
           <h3 class="contacts__invite">Звоните:</h3>
-          <p class="contacts__phone">+7 (812) 555-66-66</p>
+          <p class="contacts__phone contacts__red">+7 (812) 555-66-66</p>
 
           <h3 class="contacts__invite">Пишите:</h3>
-          <p class="contacts__mail-adress">mail@htmlacademy.ru</p>
+          <p class="contacts__mail-adress contacts__red">mail@htmlacademy.ru</p>
 
           <h3 class="contacts__invite">Приезжайте в гости:</h3>
-          <p class="contacts__adress">ул. Большая
+          <p class="contacts__adress contacts__red">ул. Большая
             Конюшенная, 19/8</p>
         </div>
 
-        <div class="map">
-          <img src="img/map_with_marker.jpg" width="320" height="200" alt="Карта с маркером">
+        <div class="contacts__map">
+          <img src="img/map_with_marker.svg" width="320" height="200" alt="Карта с маркером">
         </div>
       </div>
     </section>
@@ -217,7 +221,7 @@
   </main>
 
 
-  <footer class="page-footer">
+  <footer class="footer page-footer">
     <div class="page-footer__wrapper">
 
       <a class="page-footer__logo">
@@ -227,15 +231,15 @@
 
       <ul class="social__list_page social">
         <li class="social__item">
-          <a class="social__link social__link--twitter" href="#">Мы в Твиттере</a>
+          <a class="social__link social__link--twitter" href="#">Твиттер</a>
         </li>
 
         <li class="social__item">
-          <a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
+          <a class="social__link social__link--facebook" href="#">Фейсбук</a>
         </li>
 
         <li class="social__item">
-          <a class="social__link social__link--youtube" href="#">Мы в Ютубе</a>
+          <a class="social__link social__link--youtube" href="#">Ютуб</a>
         </li>
       </ul>
 
