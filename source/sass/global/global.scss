@@ -1,6 +1,16 @@
+a {
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 .visually-hidden {
@@ -14,10 +24,4 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
 }

@@ -1,5 +1,5 @@
 .button {
-  font: $font-family;
+  font-family: $font-family;
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
@@ -12,6 +12,5 @@
   height: 55px;
   border: 3px solid $white;
   border-radius: 29px;
-  padding: 0;
   padding: 21px 39px 21px 38px;
 }

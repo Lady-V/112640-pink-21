@@ -1,32 +1,9 @@
-.page-footer {
+.footer {
   text-align: center;
   background-color: $white;
-  font: $font-family;
+  font-family: $font-family;
 }
 
-.page-footer__logo {
+.footer__logo {
   padding: 40px 87px 41px 88px;
-}
-
-.social__list_page {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  padding-top: 41px;
-  padding-left: 74px;
-  padding-right: 74px;
-}
-
-.social__list_page li:not(:last-child) {
-  margin-right: 14px;
-}
-
-.copyright__text {
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 400;
-  color: $navy;
-  padding-top: 53px;
-  padding-bottom: 51px;
-  text-align: center;
 }
