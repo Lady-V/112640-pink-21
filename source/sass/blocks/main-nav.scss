@@ -1,0 +1,26 @@
+.main-nav {
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  color: $white;
+}
+
+.main-nav__wrapper {
+  background-color: $navy;
+}
+
+.main-nav__list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+  .site-list__item {
+    padding: 0;
+    padding-left: 116px;
+    padding-right: 117px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}

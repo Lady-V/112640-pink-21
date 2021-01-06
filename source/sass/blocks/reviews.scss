@@ -1,0 +1,19 @@
+.reviews__wrapper {
+  background-color: $white;
+  font-family: $font-family;
+  text-align: center;
+}
+
+.reviews__author-name {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: $black;
+}
+
+.reviews__text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $navy;
+}

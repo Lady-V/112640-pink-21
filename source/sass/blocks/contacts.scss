@@ -1,0 +1,26 @@
+.contacts__wrapper {
+  background-color: $white;
+  font-family: $font-family;
+  text-align: center;
+}
+
+.contacts__title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  color: $navy;
+}
+
+.contacts__invite {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  color: $navy;
+}
+
+.contacts__red {
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 300;
+  color: $pink;
+}

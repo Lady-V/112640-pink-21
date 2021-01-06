@@ -1,0 +1,12 @@
+.social__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 41px;
+  padding-left: 74px;
+  padding-right: 74px;
+}
+
+.social__list li:not(:last-child) {
+  margin-right: 14px;
+}
