@@ -1,0 +1,29 @@
+.contest-adress {
+  font-family: $font-family;
+  background-color: $white;
+}
+
+.contest-adress__text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $pink;
+  padding-left: 44px;
+}
+
+.contest-adress__input {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $navy;
+  padding-left: 20px;
+}
+
+.contest-adress {
+  input {
+    width: 276px;
+    height: 59px;
+    border: 2px solid $darkgrey;
+    border-radius: 1px;
+  }
+}

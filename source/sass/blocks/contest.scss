@@ -1,0 +1,43 @@
+.contest__wrapper {
+  font-family: $font-family;
+  background-color: $white;
+}
+
+.contest__title {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $navy;
+  text-align: center;
+}
+
+.contest__text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $pink;
+  padding-left: 43px;
+}
+
+.contest__input {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $navy;
+  padding-left: 20px;
+}
+
+.contest__filter {
+  input {
+    width: 276px;
+    height: 59px;
+    border: 2px solid $darkgrey;
+    border-radius: 1px;
+  }
+}
+
+.contest__necessarily {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+}

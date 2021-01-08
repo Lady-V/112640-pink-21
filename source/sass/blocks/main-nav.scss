@@ -15,12 +15,15 @@
   text-align: center;
   padding: 0;
   margin: 0;
+}
 
-  .site-list__item {
-    padding: 0;
-    padding-left: 116px;
-    padding-right: 117px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+.main-nav__list {
+  a {
+    color: $white;
   }
+}
+
+.main-nav__item {
+  padding: 0;
+  padding: 25px 117px 25px 116px;
 }

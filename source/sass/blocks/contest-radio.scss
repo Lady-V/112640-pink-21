@@ -1,0 +1,20 @@
+.contest-radio {
+  background-color: $grey;
+  font-family: $font-family;
+}
+
+.contest-radio__title {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $pink;
+  text-align: center;
+}
+
+.contest-radio__list {
+  list-style: none;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $navy;
+}
