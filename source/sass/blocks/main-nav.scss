@@ -4,6 +4,10 @@
   line-height: 32px;
   font-weight: 700;
   color: $white;
+
+  a {
+    color: $white;
+  }
 }
 
 .main-nav__wrapper {
@@ -17,13 +21,6 @@
   margin: 0;
 }
 
-.main-nav__list {
-  a {
-    color: $white;
-  }
-}
-
 .main-nav__item {
-  padding: 0;
   padding: 25px 117px 25px 116px;
 }
