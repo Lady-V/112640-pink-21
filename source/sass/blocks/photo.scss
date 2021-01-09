@@ -1,0 +1,42 @@
+.photo__wrapper-heading {
+  font-family: $font-family;
+  background-color: $white;
+}
+
+.photo__list {
+  list-style: none;
+}
+
+.photo__intro {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $navy;
+  text-align: center;
+}
+
+.photo__author-name {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $navy;
+
+  span {
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+.photo__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $navy;
+}
+
+.photo__likes {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $pink;
+}

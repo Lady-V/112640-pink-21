@@ -4,31 +4,35 @@
 <head>
   <meta charset="utf-8">
   <title>Pink</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="page__body inner-page">
+<body class="page__body page">
   <header class="page-header">
     <a class="page-header__logo">
       <img src="img/logotype-mobile.svg" width="74" height="23"
         alt="«Pink» - мобильное приложение для раскрашивания серых будней в розовый цвет">
     </a>
     <nav class="main-nav">
-      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <button class="main-nav__toggle" type="button"><span>Открыть меню</span></button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
-          <li class="main-nav__item-active">
-            <a href="index.html">Главная</a>
+          <li class="main-nav__item active">
+            <a>Главная</a>
           </li>
-          <li class="site-list__item">
-            <a>Фотографии</a>
+          <li class="main-nav__item">
+            <a href="catalog.html">Фотографии</a>
           </li>
-          <li class="site-list__item">
+          <li class="main-nav__item">
             <a href="form.html">Конкурс</a>
           </li>
-          <li class="site-list__item">
-            <a href="https://echo.htmlacademy.ru">HTML Academy</a>
+          <li class="main-nav__item">
+            <a href="#">HTML Academy</a>
           </li>
         </ul>
+      </div>
+      <div class="main-title">
+        <h1 class="main-title__catalog">Фотографии пользователей</h1>
       </div>
     </nav>
   </header>
@@ -36,7 +40,6 @@
   <main class="page-main">
     <section class="photo">
       <div class="photo__wrapper-heading">
-        <h1 class="photo__title">Фотографии пользователей</h1>
         <p class="photo__intro">Взгляните на фотографии, которые выкладывают пользователи!
           Видите, как не хватает ваших?</p>
 
@@ -167,17 +170,17 @@
 
 
 
-    <section class="uploads">
-      <div class="uploads__wrapper">
+    <section class="upload">
+      <div class="upload__wrapper">
         <h2 class="visually-hidden">Загрузка и Обработка фотографий</h2>
-        <p class="uploads__title">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
-        <img class="uploads__photo" src="img/snow_road-photo.jpg" width="280" height="374" alt="Снежная дорога">
+        <p class="upload__title">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+        <img class="upload__photo" src="img/snow_road-photo.jpg" width="280" height="374" alt="Снежная дорога">
 
-        <form class="uploads__form" method="GET" action="#">
-          <ul class="uploads__tools-list">
-            <li class="uploads__tools-item">
-              <label class="uploads__tools-label uploads__tools--active" for="crop">
-                <svg class="uploads__tools-link uploads__tools-link--crop" width="44" height="44" viewBox="0 0 44 44"
+        <form class="upload__form" method="GET" action="#">
+          <ul class="uploads__list">
+            <li class="uploads__item">
+              <label class="upload__label uploads__tools--active" for="crop">
+                <svg class="upload__link uploads__tools-link--crop" width="44" height="44" viewBox="0 0 44 44"
                   fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M32 28H36V12C36 10.9391 35.5786 9.92172 34.8284 9.17157C34.0783 8.42143 33.0609 8 32 8H16V12H32V28ZM12 32V0H8V8H0V12H8V32C8 33.0609 8.42143 34.0783 9.17157 34.8284C9.92172 35.5786 10.9391 36 12 36H32V44H36V36H44V32H12Z"
@@ -185,13 +188,13 @@
                 </svg>
               </label>
 
-              <input class="uploads__tools-slider uploads__tools-active slider" type="range" name="crop" id="crop"
+              <input class="upload__slider upload__active slider" type="range" name="crop" id="crop"
                 min="0" max="100" value="0">
 
             </li>
 
-            <li class="uploads__tools-item">
-              <label class="uploads__tools-label uploads__tools--fill" for="fill">
+            <li class="upload__item">
+              <label class="upload__label upload__tools--fill" for="fill">
                 <svg width="48" height="43" viewBox="0 0 48 43" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g opacity="0.3">
                     <path
@@ -202,14 +205,14 @@
                 </svg>
               </label>
 
-              <input class="uploads__tools-slider slider" type="range" name="fill" id="fill" min="0" max="100"
+              <input class="upload__slider slider" type="range" name="fill" id="fill" min="0" max="100"
                 value="0">
 
             </li>
 
 
-            <li class="uploads__tools-item">
-              <label class="uploads__tools-label uploads__tools--contrast" for="contrast">
+            <li class="upload__item">
+              <label class="upload__label upload__tools--contrast" for="contrast">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g opacity="0.3">
                     <path
@@ -222,7 +225,7 @@
                 </svg>
               </label>
 
-              <input class="uploads__tools-slider slider" type="range" name="contrast" id="contrast" min="0" max="100"
+              <input class="upload__slider slider" type="range" name="contrast" id="contrast" min="0" max="100"
                 value="0">
 
             </li>
@@ -230,9 +233,9 @@
 
 
 
-          <a class="uploads__tools-button button" href="#">Запостить</a>
+          <a class="upload__button upload__button-post button" href="#">Запостить</a>
 
-          <a class="uploads__tools-button button" href="#">Отмена</a>
+          <a class="upload__button upload__button-cancel button" href="#">Отмена</a>
 
 
         </form>
@@ -243,30 +246,30 @@
   </main>
 
 
-  <footer class="page-footer">
-    <div class="page-footer__wrapper">
+  <footer class="footer page-footer">
+    <div class="footer__wrapper">
 
-      <a class="page-footer__logo">
+      <a class="footer__logo">
         <img src="img/footer-logo.svg" width="145" height="40"
           alt="«Pink» - мобильное приложение для раскрашивания серых будней в розовый цвет">
       </a>
 
-      <ul class="social__list_page social">
+      <ul class="social__list social">
         <li class="social__item">
-          <a class="social__link social__link--twitter" href="#">Мы в Твиттере</a>
+          <a class="social__link social__link--twitter" href="#">Твиттер</a>
         </li>
 
         <li class="social__item">
-          <a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
+          <a class="social__link social__link--facebook" href="#">Фейсбук</a>
         </li>
 
         <li class="social__item">
-          <a class="social__link social__link--youtube" href="#">Мы в Ютубе</a>
+          <a class="social__link social__link--youtube" href="#">Ютуб</a>
         </li>
       </ul>
 
 
-      <p class="page-footer__copyright copyright">
+      <p class="footer__copyright copyright">
         <span class="copyright__text">Разработано</span>
         <a class="copyright-link" href="https://echo.htmlacademy.ru">HTML Academy</a>
       </p>

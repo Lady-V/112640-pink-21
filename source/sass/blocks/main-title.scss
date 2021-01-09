@@ -4,11 +4,21 @@
   background-size: auto auto;
 }
 
-.main-title_form {
+.main-title__form {
   font-family: $font-family;
   font-size: 24px;
   line-height: 33px;
   font-weight: 300;
   color: $white;
   text-align: center;
+}
+
+.main-title__catalog {
+  font-family: $font-family;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 300;
+  color: $white;
+  text-align: center;
+  padding-bottom: 84px;
 }
