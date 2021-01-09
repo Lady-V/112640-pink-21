@@ -1,0 +1,28 @@
+.contest-reviews {
+  background-color: $white;
+  font-family: $font-family;
+
+  input {
+    width: 276px;
+    height: 197px;
+    border: 2px solid $darkgrey;
+    border-radius: 1px;
+  }
+}
+
+.contest-reviews__text {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $pink;
+  text-align: center;
+  padding-left: 68px;
+}
+
+.contest-reviews__input {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $navy;
+  padding: 22px 25px 132px 20px;
+}

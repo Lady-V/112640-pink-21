@@ -1,0 +1,23 @@
+.popup__wrapper {
+  font-family: $font-family;
+  background-color: $white;
+  text-align: center;
+}
+
+.popup__title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $black;
+}
+
+.popup__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $navy;
+}
+
+.popup__button-wrapper {
+  background-color: $grey;
+}
